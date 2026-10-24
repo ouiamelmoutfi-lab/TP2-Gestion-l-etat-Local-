@@ -6,13 +6,6 @@ La structure du projet est organisée en plusieurs fichiers et dossiers. Le doss
 
 ![alt text](<Screenshot 2026-10-24 215139.png>)
 
-1. Structure du projet
-
-La structure du projet est organisée en plusieurs fichiers et dossiers. Le dossier src contient les composants React développés durant ce TP, ainsi que le fichier principal App.js qui permet de les intégrer dans une seule application.
-
-Image 1 : Structure du projet
-
-
 
 ## 2. Application : Gestion de l'État
 
