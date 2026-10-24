@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import Compteur from './Compteur';
+import MessageBouton from './MessageBouton';
+import FormulaireNom from './FormulaireNom';
+import TodoList from './TodoList';
+import CompteurEffet from './CompteurEffet';
+import Timer from './Timer';
+import Profil from './Profil';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>TP 2 : Gestion de l'État</h1>
+
+      <section>
+        <h2>Compteur</h2>
+        <Compteur />
+      </section>
+
+      <section>
+        <h2>Interactions</h2>
+        <MessageBouton />
+      </section>
+
+      <section>
+        <h2>Formulaire</h2>
+        <FormulaireNom />
+      </section>
+
+      <section>
+        <h2>Compteur avec useEffect</h2>
+        <CompteurEffet />
+      </section>
+
+      <section>
+        <h2>Timer</h2>
+        <Timer />
+      </section>
+
+      <section>
+        <h2>Liste de tâches</h2>
+        <TodoList />
+      </section>
+
+      <section>
+        <h2>Profil utilisateur</h2>
+        <Profil />
+      </section>
     </div>
   );
 }
